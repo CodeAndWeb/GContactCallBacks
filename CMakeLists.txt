@@ -1,0 +1,13 @@
+add_executable(
+    Test
+    main.cpp
+    Collision.hpp
+    Object.hpp
+    ObjectA.cpp
+    ObjectA.hpp
+    ObjectB.cpp
+    ObjectB.hpp
+    GContactCallback.hpp
+    GCollisionRegistry.cpp
+    GCollisionRegistry.hpp
+)
